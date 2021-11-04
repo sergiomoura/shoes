@@ -6,78 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoes!</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ropa+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="img/logo.png" alt="Logo Shoes">
+        <img class = "logo" src="img/logo.png" alt="Logo Shoes">
         <nav>
-            <ul>
-                <li><a href="">Todos os Produtos</a></li>
-                <li><a href="">Coleções</a></li>
-                <li><a href="">Outlet</a></li>
+            <ul class = "menu">
+                <li><a class = "aMenu" href="">TODOS OS PRODUTOS</a></li>
+                <li><a class = "aMenu" href="">COLEÇÕES</a></li>
+                <li><a class = "aMenu" href="">OUTLET</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
+        <div class = "esquerda">
             <h2>Faça parte do nosso time</h2>
-            <form action="">
+            <form class = "formulario" action="">
                 <label>
-                    Nome:
+                    Nome: <br>
                     <input type="text" name="nome" id="nome">
                 </label>
                 <label>
-                    E-mail:
+                    E-mail: <br>
                     <input type="email" name="email" id="email">
                 </label>
                 <label>
-                    Telefone:
+                    Telefone: <br>
                     <input type="tel" name="telefone" id="telefone">
                 </label>
                 <label>
-                    Departamentos:
+                    Departamentos: <br>
                     <select name="departamentos" id="departamentos">
                         <option selected disabled>Selecione o departamento</option>
-                        <option value="v">Vendas</option>
-                        <option value="c">Compras</option>
-                        <option value="l">Logística</option>
+                        <option value="vendas">Vendas</option>
+                        <option value="compras">Compras</option>
+                        <option value="logistica">Logística</option>
                     </select>
                 </label>
-                
                 <div>
-                    Disponibilidade:
-                    <label><input type="checkbox" name="8h" id="">Integral (8h)</label>
-                    <label><input type="checkbox" name="4h" id="">Meio Período (4h)</label>
-                    <label><input type="checkbox" name="free" id="">Freelancer</label>
+                    Disponibilidade: <br>
+                    <label><input type="checkbox" name="8h" id="8h">Integral (8h)</label>
+                    <label><input type="checkbox" name="4h" id="4h">Meio Período (4h)</label>
+                    <label><input type="checkbox" name="free" id="free">Freelancer</label>
                 </div>
                 <div>
-                    Qual a melhor forma de entrarmos em contato com você?
-                    <label for=""><input type="radio" value="1" name="contato" id="contato_email">E-mail</label>
-                    <label for=""><input type="radio" value="2" name="contato" id="contato_ligacao">Ligação</label>
-                    <label for=""><input type="radio" value="3" name="contato" id="contato_wa">What's App</label>
+                    Qual a melhor forma de entrarmos em contato com você? <br>
+                    <label><input type="radio" value="email" name="contato" id="contato_email">E-mail</label>
+                    <label><input type="radio" value="ligacao" name="contato" id="contato_ligacao">Ligação</label>
+                    <label><input type="radio" value="wpp" name="contato" id="contato_wa">What's App</label>
                 </div>
-
                 <label>
-                    Mensagem:
+                    Mensagem: <br>
                     <textarea name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
                 </label>
-
                 <label>
                     Currículo:
                     <input type="file" name="curriculo" id="curriculo">
                 </label>
-
                 <button type="submit">Enviar</button>
             </form>
         </div>
-        <div>
+        <div class = "direita">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ullam aliquam recusandae omnis. Perferendis officia veniam nostrum nemo sed, qui expedita molestiae aspernatur, voluptas natus, in harum cum alias obcaecati!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus eaque tempore praesentium deserunt ab doloremque velit maxime, est quisquam odio obcaecati in? Reiciendis earum modi dolore, perferendis sunt porro repellat.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ullam sunt enim vitae libero harum minus nihil consequatur quia. Omnis corrupti id quas recusandae quam. Totam laborum dolorum rerum quisquam.</p>
         </div>
     </main>
     <footer>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora libero esse voluptate nihil reiciendis modi voluptatibus sunt ipsa. Quibusdam ad soluta adipisci neque odio nostrum optio reprehenderit animi temporibus!
+        <div>
+            <img class = "imgFooter" src="./img/imgFooter.png" alt="">
+            <p><div class = "textoRodape">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint nulla temporibus excepturi quam voluptate qui quis reiciendis iste exercitationem, earum modi ex atque cupiditate ab est amet, animi natus possimus.
+            </div></p>
+        </div>
+        <div class = "categorias">
+            <h3>categorias</h3>
+            <nav>
+                <ul>
+                    <li><a class = "aFooter" href="">sandálias</a></li>
+                    <li><a class = "aFooter" href="">botas</a></li>
+                    <li><a class = "aFooter" href="">tênis</a></li>
+                    <li><a class = "aFooter" href="">oxford</a></li>
+                    <li><a class = "aFooter" href="">cuturnos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class = "institucional">
+            <h3>institucional</h3>
+            <nav>
+                <ul>
+                    <li><a class = "aFooter" href="">sobre nós</a></li>
+                    <li><a class = "aFooter" href="">perguntas frequentes</a></li>
+                    <li><a class = "aFooter" href="">política de privacidade</a></li>
+                    <li><a class = "aFooter" href="">rastreamento de pedidos</a></li>
+                    <li><a class = "aFooter" href="">fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 </body>
 </html>

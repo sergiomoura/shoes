@@ -1,0 +1,104 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
+}
+footer{
+    background-color: #C2185B;
+    height: 248px;
+    width: 1280px;
+    display: flex;
+    margin-top: 57px;
+}
+.imgFooter{
+    height: 123px;
+    padding-top: 19px;
+    padding-left: 127px;
+    position: absolute;
+}
+.textoRodape{
+    font-size: 14px;
+    height: 91px;
+    width: 255px;
+    color: white;
+    padding-left: 128px;
+    padding-top: 119px
+}
+.aFooter{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+ul {
+    list-style-type: none;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.institucional{
+    width: 246px;
+    padding-left: 136px;
+    padding-right: 148px;
+    padding-top: 36px;
+}
+.categorias{
+    width: 104px;
+    padding-top: 36px;
+    padding-left: 286px;
+}
+header{
+    box-shadow: 0 1px 20px -0px rgba(159, 159, 159, 0.65);
+    height: 122px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+ height: 104px;   
+ padding-top: 9px;
+ padding-left: 19px;
+}
+.menu{
+    display: flex;
+    width: 531px;
+    justify-content: space-around;
+}
+.aMenu{
+    text-decoration: none;
+    font-size: 24px;
+    color: #777777;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.esquerda{
+    width: 538px;
+    margin-left: 123px;
+    margin-top: 55px;
+    font-size: 18px;
+}
+.direita{
+    width: 464px;
+    margin-top: 146px;
+    margin-right: 80px;
+    text-align: justify;
+    font-size: 16px;
+}
+h2{
+    font-size: 39px;
+    color: #575757;
+    font-weight: 600;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    width: 538px;
+}
+select, button{
+    width: 545px;
+}
