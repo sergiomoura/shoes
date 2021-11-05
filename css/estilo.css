@@ -35,16 +35,18 @@ h3{
     color: white;
     font-size: 20px;
     padding-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .institucional{
     width: 246px;
     padding-left: 136px;
     padding-right: 148px;
-    padding-top: 36px;
+    padding-top: 66px;
 }
 .categorias{
     width: 104px;
-    padding-top: 36px;
+    padding-top: 66px;
     padding-left: 286px;
 }
 header{
@@ -73,16 +75,19 @@ header{
 main{
     display: flex;
     justify-content: space-around;
+    width: 1280px;
+    /*height: 792px;*/
 }
 .esquerda{
     width: 538px;
     margin-left: 123px;
     margin-top: 55px;
     font-size: 18px;
+    color: #9B9B9B;
 }
 .direita{
     width: 464px;
-    margin-top: 146px;
+    margin-top: 120px;
     margin-right: 80px;
     text-align: justify;
     font-size: 16px;
@@ -91,14 +96,49 @@ h2{
     font-size: 39px;
     color: #575757;
     font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 36px;
 }
 .formulario{
     display: flex;
     flex-direction: column;
 }
-textarea{
+input[type=text], input[type=email], input[type=tel], textarea{
     width: 538px;
+    color: #9B9B9B;
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 15px;
 }
-select, button{
+select{
     width: 545px;
+    font-size: 18px;
+    color: #9B9B9B;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+button{
+    width: 545px;
+    background-color: #C2185B;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+input[type=file]{
+    margin-left: 15px;
+}
+.mensagem, .formaContato{
+    margin-top: 15px;
+}
+.fContato, .horario{
+    margin-top: 12px;
+}
+.f1{
+    margin-right: 58px;
+    font-size: 14px;
+}
+.f2{
+    margin-right: 17px;
+    font-size: 14px;
 }
