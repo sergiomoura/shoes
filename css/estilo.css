@@ -4,6 +4,17 @@ body {
 
 header {
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top:0;
+    background-color: #FFF;
+}
+
+header > nav {
+    background-color: #c2185b;
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 0px;
 }
 
 header > nav > ul {
@@ -26,4 +37,8 @@ header > nav > ul > li > a {
 
 header > nav > ul > li > a:hover{
     background-color: rgb(202, 202, 202);
+}
+
+main {
+    margin-top: 250px;
 }
